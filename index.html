@@ -3,36 +3,67 @@
 <head>
 	<title>Cahee</title>
 	<meta charset="utf-8">
+	<meta name="description" content="cahee">
+	<meta name="keywords" content="cahee">
+	<link rel="stylesheet" type="text/css" href="web/css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="web/css/style.css">
 	<link rel="icon" type="image/png" href="web/img/favicon.png">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,800,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 </head>
 <body>
-	<header class="head1">
+	<header class="head" id="home">
 		<div class="nav">
-			<span class="nav_cahee">Cahee</span>
-			<ul>
-				<li>HOME</li>
-				<li>ABOUT</li>
-				<li>SERVICES</li>
-				<li>GALLERY</li>
-				<li>BLOG</li>
-				<li>CONTACT</li>
+			<span class="nav__cahee">Cahee</span>
+			<ul class="head__nav">
+				<li class="head__nav--li"><a href="#home" class="head__nav--a">HOME</a></li>
+				<li class="head__nav--li"><a href="#about" class="head__nav--a">ABOUT</a></li>
+				<li class="head__nav--li"><a href="#services" class="head__nav--a">SERVICES</a></li>
+				<li class="head__nav--li"><a href="#" class="head__nav--a">GALLERY</a></li>
+				<li class="head__nav--li"><a href="#" class="head__nav--a">BLOG</a></li>
+				<li class="head__nav--li"><a href="#" class="head__nav--a">CONTACT</a></li>
 			</ul>
 		</div>
-		<div class="info">
+		<div class="head__info">
 			<span>Fresh Life</span>
 			<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-			<button class="head_button">GET FREE NOW</button>
+			<button class="head__button">GET FREE NOW</button>
 		</div>
-		<img src="web/img/scroll.svg" alt="Scroll" class="scroll">
+		<a href="#about" class="head__scroll"><img src="web/img/scroll.svg" alt="Scroll" ></a>
 	</header>
 	<main>
-		<div class="about">
-			<img src="web/img/taril.png" alt="Taril" class="taril">
-			<span>About Us</span>
-			<p></p>
+		<div class="about" id="about">
+			<div class="about__img">
+				<img src="web/img/taril.png" alt="Taril" class="taril">
+			</div>
+			<div class="about__text">
+				<span>About Us</span>
+				<p>Abore Cahee magna alique. Ut enim ad mini veniam, quis nostrud exercitation ullamco laboratoris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluplate vetit esse cillum. </p>
+				<p>Nim idest laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+			</div>
+		</div>
+		<div class="services" id="services">
+			<ul class="services__ul">
+				<li class="services__ul--li">					
+					<b class="services__ul--b">Online Shopping</b>
+					<img src="web/img/vizok.png" alt="Vizok" class="services__icon">					
+				</li>
+				<li class="services__ul--li">
+					<b class="services__ul--b">Quality Product</b>
+					<img src="web/img/ryka.png" alt="Ryka" class="services__icon">
+				</li>
+				<li class="services__ul--li"> 
+					<b class="services__ul--b" id="domestic">Domestic & International Delivery</b>
+					<img src="web/img/svit.png" alt="Svit" class="services__icon">
+				</li>
+				<li class="services__ul--li">
+					<b class="services__ul--b">Well Organized</b>
+					<img src="web/img/morkva.png" alt="Morkva" class="services__icon">
+				</li>
+			</ul>
+			<div class="services__our">
+				<span>Our Services</span>
+			</div>
 		</div>
 	</main>
 	<footer>
