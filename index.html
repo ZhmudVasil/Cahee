@@ -8,66 +8,151 @@
 	<link rel="stylesheet" type="text/css" href="web/css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="web/css/style.css">
 	<link rel="icon" type="image/png" href="web/img/favicon.png">
-	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,800,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 </head>
 <body>
 	<header class="head" id="home">
 		<div class="nav">
-			<span class="nav__cahee">Cahee</span>
-			<ul class="head__nav">
-				<li class="head__nav--li"><a href="#home" class="head__nav--a">HOME</a></li>
-				<li class="head__nav--li"><a href="#about" class="head__nav--a">ABOUT</a></li>
-				<li class="head__nav--li"><a href="#services" class="head__nav--a">SERVICES</a></li>
-				<li class="head__nav--li"><a href="#" class="head__nav--a">GALLERY</a></li>
-				<li class="head__nav--li"><a href="#" class="head__nav--a">BLOG</a></li>
-				<li class="head__nav--li"><a href="#" class="head__nav--a">CONTACT</a></li>
-			</ul>
+			<div class="fixed-box">
+				<span class="nav__cahee">Cahee</span>
+				<ul class="head__nav">
+					<li class="head__nav--li"><a href="#home" class="head__nav--a">HOME</a></li>
+					<li class="head__nav--li"><a href="#about" class="head__nav--a">ABOUT</a></li>
+					<li class="head__nav--li"><a href="#services" class="head__nav--a">SERVICES</a></li>
+					<li class="head__nav--li"><a href="#gallery" class="head__nav--a">GALLERY</a></li>
+					<li class="head__nav--li"><a href="#blog" class="head__nav--a">BLOG</a></li>
+					<li class="head__nav--li"><a href="#contact" class="head__nav--a">CONTACT</a></li>
+				</ul>
+			</div>
 		</div>
-		<div class="head__info">
-			<span>Fresh Life</span>
-			<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-			<button class="head__button">GET FREE NOW</button>
+		<div class="head-box">
+			<div class="head__info">
+				<h1 class="head__info--h1">Fresh Life</h1>
+				<span class="head__info--span span">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco.</span>
+				<br>
+				<button class="head__button button">GET FREE NOW</button>
+			</div>
 		</div>
 		<a href="#about" class="head__scroll"><img src="web/img/scroll.svg" alt="Scroll" ></a>
 	</header>
 	<main>
 		<div class="about" id="about">
-			<div class="about__img">
-				<img src="web/img/taril.png" alt="Taril" class="taril">
-			</div>
-			<div class="about__text">
-				<span>About Us</span>
-				<p>Abore Cahee magna alique. Ut enim ad mini veniam, quis nostrud exercitation ullamco laboratoris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluplate vetit esse cillum. </p>
-				<p>Nim idest laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+			<div class="about-box">
+				<div class="about__img">
+					<img src="web/img/taril.png" alt="Taril" class="taril img">
+				</div>
+				<div class="about__text">
+					<h1 class="about__text--h1">About Us</h1>
+					<span class="about__text--span span">Abore Cahee magna alique. Ut enim ad mini veniam, quis nostrud exercitation ullamco laboratoris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluplate vetit esse cillum. </span>
+					<br>
+					<span class="about__text--span span">Nim idest laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</span>
+				</div>
 			</div>
 		</div>
 		<div class="services" id="services">
-			<ul class="services__ul">
-				<li class="services__ul--li">					
-					<b class="services__ul--b">Online Shopping</b>
-					<img src="web/img/vizok.png" alt="Vizok" class="services__icon">					
-				</li>
-				<li class="services__ul--li">
-					<b class="services__ul--b">Quality Product</b>
-					<img src="web/img/ryka.png" alt="Ryka" class="services__icon">
-				</li>
-				<li class="services__ul--li"> 
-					<b class="services__ul--b" id="domestic">Domestic & International Delivery</b>
-					<img src="web/img/svit.png" alt="Svit" class="services__icon">
-				</li>
-				<li class="services__ul--li">
-					<b class="services__ul--b">Well Organized</b>
-					<img src="web/img/morkva.png" alt="Morkva" class="services__icon">
-				</li>
-			</ul>
-			<div class="services__our">
-				<span>Our Services</span>
+			<div class="services-box"> 
+				<ul class="services__ul">
+					<li class="services__ul--li">					
+						<b class="services__ul--b">Online Shopping</b>
+						<img src="web/img/vizok.png" alt="Vizok" class="services__icon">					
+					</li>
+					<li class="services__ul--li">
+						<b class="services__ul--b">Quality Product</b>
+						<img src="web/img/ryka.png" alt="Ryka" class="services__icon">
+					</li>
+					<li class="services__ul--li"> 
+						<b class="services__ul--b" id="domestic">Domestic & International Delivery</b>
+						<img src="web/img/svit.png" alt="Svit" class="services__icon">
+					</li>
+					<li class="services__ul--li">
+						<b class="services__ul--b">Well Organized</b>
+						<img src="web/img/morkva.png" alt="Morkva" class="services__icon">
+					</li>
+				</ul>
+				<div class="services__our">
+					<span>Our Services</span>
+				</div>
+			</div>
+		</div>
+		<div class="gallery" id="gallery">
+			<h1 class="gallery__h1">Gallery</h1>
+			<span class="gallery__span span">Consectetue adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+			<br>
+			<div class="gallery__img">
+				<img src="web/img/gallery_1.png" alt="Persik" class="gallery_1 img">
+				<img src="web/img/gallery_2.png" alt="Smorodina" class="gallery_2 gal23 img">
+				<img src="web/img/gallery_3.png" alt="Ozhina" class="gallery_3 gal23 img">
+				<img src="web/img/gallery_4.png" alt="Stakan" class="gallery_4 gal45 img">
+				<img src="web/img/gallery_5.png" alt="Pomidor" class="gallery_5 gal45 img">
+			</div>
+			<button class="gallery__button button">VIEW MORE</button>
+		</div>
+		<div class="subscribe" id="subscribe">
+			<div class="subscribe-box">
+				<div class="subscribe__blok">
+					<h1 class="subscribe__h1"> Subscribe To Us</h1>
+					<span class="subscribe__span">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</span>
+					<br>
+					<form class="subscribe__form">
+						<input type="email" name="Email" class="subscribe__form--input" placeholder="Your email address...">
+						<button class="subscribe__form--button button">SUBSCRIBE</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="blog" id="blog">
+			<h1 class="blog__h1">BLOG</h1>
+			<span class="blog__span span">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullsmco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</span>
+			<div class="blog__img">
+				<div class="blog__img--item img">
+					<img src="web/img/day1.png" alt="20 Nov" class="blog__img--date">
+					<h3 class="blog__img--h3">Green Smooties: Too Much of a Good Thing?</h3>
+					<span class="blog__img--span">By Zhmud Vasyl - 2 hours ago</span>
+				</div>
+				<div class="blog__img--item img">
+					<img src="web/img/day2.png" alt="14 Nov" class="blog__img--date">
+					<h3 class="blog__img--h3">Growing Food and a "Thirst" for Innovation</h3>
+					<span class="blog__img--span">By Zhmud Vasyl - 3 hours ago</span>
+				</div>
+				<div class="blog__img--item img">
+					<img src="web/img/day3.png" alt="10 Nov" class="blog__img--date">
+					<h3 class="blog__img--h3">Pesticides & Food: What You Need to Know</h3>
+					<span class="blog__img--span">By Zhmud Vasyl - 6 hours ago</span>
+				</div>
+			</div>
+			<button class="blog__button button">VIEW MORE</button>
+		</div>
+		<div class="contact" id="contact">
+			<h1 class="contact__h1">Contact</h1>
+			<span class="contact__span span">For new projects, ideas, business or anything youd like to discuss, contact with me!</span>
+			<div class="contact-box">
+				<form class="contact__form">
+					<input type="text" name="Name" placeholder="Your first and last name" class="contact__form--input">
+					<br>
+					<input type="email" name="Email" placeholder="Your email..." class="contact__form--input">
+					<br>
+					<input type="text" name="Phone nomber" placeholder="Your phone number..." class="contact__form--input">
+					<br>
+					<textarea type="" name="Message" class="contact__form--input" placeholder="Your message"></textarea>
+				</form>
+				<div class="contact__our">
+					<h2 class="contact__our--h2">ADDRESS</h2>
+					<p class="contact__our--p">123 City name, Street, City, Country</p>
+					<h2 class="contact__our--h2">EMAIL</h2>
+					<p class="contact__our--p">cahee@domain.com</p>
+					<h2 class="contact__our--h2">PHONE</h2>
+					<p class="contact__our--p">+0123456789</p>
+				</div>
 			</div>
 		</div>
 	</main>
-	<footer>
-		
+	<footer class="fooder">
+		<div class="fooder-box">
+			<span class="fooder__span">&#169 2018 Company. All right reserved</span>
+			<img src="web/img/logo-small.png" alt="Small Logo" class="fooder__img img">
+			<span class="fooder__span">Made with <b class="love">love</b> by Zhmud Vasyl</span>
+		</div>
 	</footer>
 </body>
 </html>
